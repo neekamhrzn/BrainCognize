@@ -1,0 +1,48 @@
+<!-- tumor_detection_app/templates/result.html -->
+
+{% comment %} <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Result</h1>
+    <p>The image is classified as: {{ predicted_class_label }}</p>
+    <a href="/">Try Again</a>
+</body>
+</html> {% endcomment %}
+
+
+{% comment %} <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Result</h1>
+    <p>The image is classified as: {{ predicted_class_label }}</p>
+    <p>Tumor Probability: {{ tumor_probability }}</p>
+    <a href="/">Try Again</a>
+</body>
+</html> {% endcomment %}
+
+<!-- tumor_detection_app/templates/result.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+</head>
+<body>
+    <h1>Result</h1>
+    <p>The image is classified as: {{ result }}</p>
+    <p>Tumor Probability: {{ tumor_probability }}</p>
+    <a href="/">Try Again</a>
+</body>
+</html>
